@@ -9,7 +9,7 @@ const add1 =(a,b)=> a+b;
 console.log(add1(3,5))
 
 const c = add(2,3);
-const d = add1(4,5)
+const d
 
 const add2 =(a,b) => a*b
-console.log(c,d);
+console.log(add(2,4),add1(8,9))
