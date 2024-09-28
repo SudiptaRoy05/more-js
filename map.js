@@ -65,9 +65,9 @@ console.log(totalPrice);
 products.forEach(p => console.log(p.id));
 
 // filter 
-const expensive = products.filter(p => p.price > 70000);
-console.log(expensive)
+const premium = products.filter(p => p.price > 70000);
+console.log(premium)
 
 // cheap 
-const cheap = products.find(p => p.price < 70000);
-console.log(cheap);
+const affordable = products.find(p => p.price < 70000);
+console.log(affordable);
